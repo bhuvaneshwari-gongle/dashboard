@@ -1,0 +1,30 @@
+/* src/contact.css */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Add spacing between icons */
+    margin-top: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+/* Add hover effects */
+.linkedin-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+.github-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+.gmail-img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
