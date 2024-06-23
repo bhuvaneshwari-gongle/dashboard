@@ -4,27 +4,40 @@
     justify-content: center;
     gap: 2rem; /* Add spacing between icons */
     margin-top: 1rem;
+    flex-wrap: wrap; /* Allow wrapping */
 }
 
 .icon {
-    width: 2rem;
-    height: 2rem;
+    width: 40px; /* Adjusted size */
+    height: 40px; /* Adjusted size */
     object-fit: cover;
     transition: transform 0.3s, filter 0.3s;
 }
 
-/* Add hover effects */
+/* Hover effects */
 .linkedin-img:hover {
-    transform: scale(1.1);
-    filter: brightness(0.8);
+    transform: scale(1.1); /* Grow by 10% */
+    filter: brightness(0.8); /* Darken by 20% */
 }
 
 .github-img:hover {
-    transform: scale(1.1);
-    filter: brightness(0.8);
+    transform: scale(1.1); /* Grow by 10% */
+    filter: brightness(0.8); /* Darken by 20% */
 }
 
 .gmail-img:hover {
-    transform: scale(1.1);
-    filter: brightness(0.8);
+    transform: scale(1.1); /* Grow by 10% */
+    filter: brightness(0.8); /* Darken by 20% */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .contact-icons {
+        gap: 1rem; /* Reduce gap for smaller screens */
+    }
+
+    .icon {
+        width: 30px; /* Adjusted size for smaller screens */
+        height: 30px; /* Adjusted size for smaller screens */
+    }
 }
