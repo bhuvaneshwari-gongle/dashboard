@@ -56,3 +56,20 @@ section h2 {
     margin: 0.5rem 0;
     padding: 0.5rem;
 }
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}
