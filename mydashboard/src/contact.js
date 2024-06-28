@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => {
     return (
         <section id="contact">
-            <h2>Contact</h2>
+            
             <div className="contact-icons">
             <a href="https://www.linkedin.com/in/bgongle/" target="_blank" rel="noopener noreferrer">
             <img src={`${process.env.PUBLIC_URL}/linkedin.png`} alt="LinkedIn" className="icon linkedin-img"/>
