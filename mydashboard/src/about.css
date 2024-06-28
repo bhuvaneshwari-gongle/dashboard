@@ -1,0 +1,10 @@
+/* src/About.css */
+.about {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 2s ease-in;
+}
+
+.about.visible {
+    opacity: 1;
+}

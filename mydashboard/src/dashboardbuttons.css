@@ -1,0 +1,26 @@
+/* src/DashboardButtons.css */
+.dashboard-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center; /* Center align buttons */
+}
+
+.dashboard-button {
+    background-color: transparent; /* Transparent background */
+    border: 2px solid black;
+    /* border: 2px solid #f0c040; /* Yellow border */
+    border-radius: 25px; /* Curved rectangle */
+    padding: 0.5rem 2rem; /* Adjust padding for a better look */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 300px; /* Set a fixed width */
+    text-align: center; /* Center text inside button */
+}
+
+.dashboard-button:hover {
+    background-color: #b7c9c5;
+    color: white; /* Change text color on hover */
+}
